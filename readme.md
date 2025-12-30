@@ -9,6 +9,7 @@ Create isolated code-server (VS Code in browser) instances on-demand through sim
 
 ```bash
 # Apply RBAC and controller
+kubectl create ns code-server
 kubectl apply -f https://raw.githubusercontent.com/mehdi-chebbi/server-code/mehdi-nightly/rbac.yaml
 kubectl apply -f https://raw.githubusercontent.com/mehdi-chebbi/server-code/mehdi-nightly/full-depl.yaml
 
