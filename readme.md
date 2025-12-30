@@ -9,8 +9,8 @@ Create isolated code-server (VS Code in browser) instances on-demand through sim
 
 ```bash
 # Apply RBAC and controller
-kubectl apply -f https://raw.github.com/ChibaniAdam/KYMA-Flow-Front-Admin/tree/mehdi-Nightly/rbac.yaml
-kubectl apply -f https://raw.github.com/ChibaniAdam/KYMA-Flow-Front-Admin/tree/mehdi-Nightly/full-depl.yaml
+kubectl apply -f https://raw.githubusercontent.com/mehdi-chebbi/server-code/mehdi-nightly/rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/mehdi-chebbi/server-code/mehdi-nightly/full-depl.yaml
 
 # Verify it's running
 kubectl get pods -n code-server
